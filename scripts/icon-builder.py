@@ -17,7 +17,7 @@ from subprocess import PIPE
 
 import yaml
 
-from awsicons.icon import Icon
+from icons.icon import Icon
 
 TEMPLATE_DEFAULT = """
 Defaults:

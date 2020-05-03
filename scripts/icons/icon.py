@@ -12,9 +12,7 @@ from subprocess import PIPE
 
 from PIL import Image
 
-PUML_LICENSE_HEADER = """' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
-"""
+PUML_LICENSE_HEADER = ""
 
 
 class Icon:
@@ -30,7 +28,7 @@ class Icon:
             # Source name and category to uniquely identify same file names
             # in different categories to apply color or other values
             self.source_name = (
-                str(posix_filename).split("/")[-1].split("_light-bg@")[0]
+                str(posix_filename).split("/")[-1].split(".png")[0]
             )
             self.source_category = str(posix_filename).split("/")[3]
             self._set_values(self.source_name, self.source_category)
@@ -66,11 +64,11 @@ class Icon:
                 stderr=PIPE,
             )
             puml_content += result.stdout.decode("UTF-8")
-            puml_content += f"AWSEntityColoring({target})\n"
-            puml_content += f"!define {target}(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, {color}, {target}, {target})\n"
+            puml_content += f"EntityColoring({target})\n"
+            puml_content += f"!define {target}(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, {color}, {target}, {target})\n"
 
             with open(f"{path}/{target}.puml", "w") as f:
                 f.write(puml_content)
@@ -185,7 +183,7 @@ class Icon:
            then remove leading AWS or Amazon to reduce length. Also convert non-alphanumeric characters to underscores"""
 
         if name:
-            new_name = name.split("/")[-1].split("_light-bg@")[0]
+            new_name = name.split("/")[-1].split(".png")[0]
             if new_name.startswith(("AWS-", "Amazon-")):
                 new_name = new_name.split("-", 1)[1]
             # Replace non-alphanumeric with underscores (1:1 mapping)
