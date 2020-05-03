@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 
 
-"""icon-builder.py: Build AWS Icons for PlantUML"""
+"""icon-builder.py: Build Icons for PlantUML"""
 
 import os
 import argparse
@@ -32,31 +32,27 @@ Defaults:
 
 MARKDOWN_PREFIX_TEMPLATE = """
 <!--
-Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
 -->
-# AWS Symbols
+# Symbols
 
-The table below lists all AWS symbols in the `dist/` directory, sorted by category.
+The table below lists all symbols in the `dist/` directory, sorted by category.
 
-If you want to reference and use these files without Internet connectivity, you can also download the whole [*PlantUML Icons for AWS* dist](dist/) direcotry and reference it locally with PlantUML.
+If you want to reference and use these files without Internet connectivity, you can also download the whole [*PlantUML Icons* dist](dist/) directory and reference it locally with PlantUML.
 
 ## PNG images
 
-For each symbol, there is a resized icon in PNG format generated from the source file. Where the original icons had transparency set, this has been kept in the generated icons. You can also use the images outside of PlantUML, e.g. for documents or presentations, but the official [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) are available in all popular formats.
+For each symbol, there is a resized icon in PNG format generated from the source file. Where the original icons had transparency set, this has been kept in the generated icons. You can also use the images outside of PlantUML, e.g. for documents or presentations, but official icons may be available in other popular formats.
 
-## All PNG generated AWS symbols
+## All PNG generated symbols
 
 Category | PUML Macro (Name) | Image (PNG) | PUML Url
   ---    |  ---  | :---:  | ---
 """
 
-PUML_COPYRIGHT = """'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+PUML_COPYRIGHT = ""
 
-"""
-
-parser = argparse.ArgumentParser(description="Generates AWS icons for PlantUML")
+parser = argparse.ArgumentParser(description="Generates icons for PlantUML")
 parser.add_argument(
     "--check-env",
     action="store_true",
@@ -95,14 +91,14 @@ def verify_environment():
         sys.exit(1)
     # Verify other files and folders exist
     dir = Path("../source")
-    q = dir / "AWScommon.puml"
+    q = dir / "Common.puml"
     if not q.exists():
-        print("File AWScommon.puml not found is source/ directory")
+        print("File Common.puml not found in source/ directory")
         sys.exit(1)
     q = dir / "official"
     if not q.exists() or len([x for x in q.iterdir() if q.is_dir()]) == 0:
         print(
-            "source/official must contain folders of AWS  icons to process. Please see README file for details."
+            "source/official must contain folders of icons to process. Please see README file for details."
         )
         sys.exit(1)
     # Start plantuml.jar and verify java
@@ -159,7 +155,7 @@ def build_file_list():
     Returns POSIX path of those files to be processed (ending in _light-bg@4x.png or _light-bg@5x.png)
     """
     p = Path("../source/official")
-    return sorted(p.glob("**/*_light-bg@[45]x.png"))
+    return sorted(p.glob("**/*.png"))
 
 
 def create_config_template():
@@ -175,8 +171,10 @@ def create_config_template():
         # Get elements needed for YAML file
         category = i.split("/")[3]
         target = Icon(i.split("/")[-1], {})._make_name(i.split("/")[-1])
-        source_name = i.split("/")[-1].split("_light-bg@")[0]
+
+        source_name = i.split("/")[-1].split(".png")[0]
         file_source_dir = "/".join(i.split("/", 3)[-1].split("/")[:-1])
+        file_source_dir = file_source_dir.replace(" ", "_") #replace spaces from dir names with "_"
 
         # Process each file and populate entries for creating YAML file
         if category != current_category:
@@ -314,7 +312,7 @@ def main():
                     f"{cat} | {tgt}  | ![{tgt}](dist/{cat}/{tgt}.png?raw=true) |"
                     f"{cat}/{tgt}.puml\n"
                 )
-    with open(Path("../AWSSymbols.md"), "w") as f:
+    with open(Path("../Symbols.md"), "w") as f:
         f.write(markdown)
 
 
