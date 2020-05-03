@@ -1,5 +1,5 @@
 Categories:
-- Name: AI and Machine Learning
+- Name: AI_and_Machine_Learning
   Services:
   - Source: AI Hub
     Target: AI_Hub
@@ -43,8 +43,8 @@ Categories:
     Target: Dialog_Flow_Enterprise_Edition
   - Source: Recommendations AI
     Target: Recommendations_AI
-  SourceDir: AI and Machine Learning
-- Name: API Management
+  SourceDir: AI_and_Machine_Learning
+- Name: API_Management
   Services:
   - Source: API Analytics
     Target: API_Analytics
@@ -58,7 +58,7 @@ Categories:
     Target: Cloud_Endpoints
   - Source: Developer Portal
     Target: Developer_Portal
-  SourceDir: API Management
+  SourceDir: API_Management
 - Name: Compute
   Services:
   - Source: App Engine
@@ -78,7 +78,7 @@ Categories:
   - Source: Kubernetes Engine
     Target: Kubernetes_Engine
   SourceDir: Compute
-- Name: Data Analytics
+- Name: Data_Analytics
   Services:
   - Source: BigQuery
     Target: BigQuery
@@ -100,7 +100,7 @@ Categories:
     Target: Cloud_PubSub
   - Source: Genomics
     Target: Genomics
-  SourceDir: Data Analytics
+  SourceDir: Data_Analytics
 - Name: Databases
   Services:
   - Source: Cloud Bigtable
@@ -116,7 +116,7 @@ Categories:
   - Source: Cloud Spanner
     Target: Cloud_Spanner
   SourceDir: Databases
-- Name: Developer Tools
+- Name: Developer_Tools
   Services:
   - Source: Cloud Build
     Target: Cloud_Build
@@ -148,20 +148,20 @@ Categories:
     Target: IDE_Plugins
   - Source: Maven App Engine Plugin
     Target: Maven_App_Engine_Plugin
-  SourceDir: Developer Tools
-- Name: Hybrid and Multi Cloud
+  SourceDir: Developer_Tools
+- Name: Hybrid_and_Multi_Cloud
   Services:
   - Source: Stackdriver
     Target: Stackdriver
   - Source: Traffic Director
     Target: Traffic_Director
-  SourceDir: Hybrid and Multi Cloud
-- Name: Internet of Things
+  SourceDir: Hybrid_and_Multi_Cloud
+- Name: Internet_of_Things
   Services:
   - Source: Cloud IoT Core
     Target: Cloud_IoT_Core
-  SourceDir: Internet of Things
-- Name: Management Tools
+  SourceDir: Internet_of_Things
+- Name: Management_Tools
   Services:
   - Source: Cloud APIs
     Target: Cloud_APIs
@@ -192,7 +192,7 @@ Categories:
     ZComment: '******* Duplicate target name, must be made unique for All.puml ********'
   - Source: Trace
     Target: Trace
-  SourceDir: Management Tools
+  SourceDir: Management_Tools
 - Name: Migration
   Services:
   - Source: Transfer Appliance
