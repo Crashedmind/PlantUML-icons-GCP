@@ -77,9 +77,9 @@ def verify_environment():
 
     # Check execution from scripts working directory
     cur_dir = Path(".")
-    if str(cur_dir.absolute()).split("/")[-2:] != ["aws-icons-for-plantuml", "scripts"]:
+    if str(cur_dir.absolute()).split("/")[-1:] != ["scripts"]:
         print(
-            "Working directory for icon-builder.py must be aws-icons-for-plantuml/scripts"
+            "Working directory for icon-builder.py must be scripts"
         )
         sys.exit(1)
     # Read config file
