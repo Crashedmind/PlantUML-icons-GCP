@@ -24,7 +24,7 @@
         |<EXTERNAL_PERSON_BG_COLOR>      | external person |
         |<SYSTEM_BG_COLOR>   | system |
         |<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
-        |<AWS_BG_COLOR>       | AWS service container |
+        |<GCP_BG_COLOR>       | AWS service container |
         endlegend
     !enddefinelong
 !endif
@@ -43,7 +43,7 @@
         |<SYSTEM_BG_COLOR>   | system |
         |<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
         |<CONTAINER_BG_COLOR>   | container |
-        |<AWS_BG_COLOR>       | AWS service container |
+        |<GCP_BG_COLOR>       | AWS service container |
         endlegend
     !enddefinelong
 !endif
@@ -63,7 +63,7 @@
         |<SYSTEM_BG_COLOR>   | system |
         |<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
         |<CONTAINER_BG_COLOR>   | container |
-        |<AWS_BG_COLOR>       | AWS service container |
+        |<GCP_BG_COLOR>       | AWS service container |
         |<COMPONENT_BG_COLOR>   | component |
         endlegend
     !enddefinelong

@@ -3,10 +3,10 @@
 
 ' Colors
 ' ##################################
-!define AWS_COLOR #232F3E
-!define AWS_BG_COLOR #FFFFFF
-!define AWS_BORDER_COLOR #FF9900
-!define AWS_SYMBOL_COLOR AWS_COLOR
+!define GCP_COLOR #232F3E
+!define GCP_BG_COLOR #FFFFFF
+!define GCP_BORDER_COLOR #FF9900
+!define GCP_SYMBOL_COLOR GCP_COLOR
 
 ' Styling
 ' ##################################
@@ -30,12 +30,12 @@ skinparam Arrow {
 
 !definelong EntityColoring(stereo)
 skinparam rectangle<<stereo>> {
-    BackgroundColor AWS_BG_COLOR
-    BorderColor AWS_BORDER_COLOR
+    BackgroundColor GCP_BG_COLOR
+    BorderColor GCP_BORDER_COLOR
 }
 skinparam participant<<stereo>> {
-    BackgroundColor AWS_BG_COLOR
-    BorderColor AWS_BORDER_COLOR
+    BackgroundColor GCP_BG_COLOR
+    BorderColor GCP_BORDER_COLOR
 }
 !enddefinelong
 
