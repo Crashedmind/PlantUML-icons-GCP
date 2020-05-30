@@ -6,7 +6,7 @@ ID9Nxkp70mGwp1y1BH9OxlY8tK67gUxo7NgPesHuq66gkto7lI2MxYuVOIihN3D0pzyVcvKlupy
 }
 
 EntityColoring(Persistent_Disk)
-!define Persistent_Disk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Persistent_Disk, Persistent_Disk)
-!define Persistent_Disk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Persistent_Disk, Persistent_Disk)
-!define Persistent_DiskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Persistent_Disk, Persistent_Disk)
-!define Persistent_DiskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Persistent_Disk, Persistent_Disk)
+!define Persistent_Disk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Persistent_Disk, Persistent_Disk)
+!define Persistent_Disk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Persistent_Disk, Persistent_Disk)
+!define Persistent_DiskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Persistent_Disk, Persistent_Disk)
+!define Persistent_DiskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Persistent_Disk, Persistent_Disk)

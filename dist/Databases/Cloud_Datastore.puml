@@ -6,7 +6,7 @@ Fi_H_lAz6F8jQ9RNTEYx_Kjx2sWjTps7AGH5mrtBOGW7ZVA8msDtFOSfM-o1ksw5G-u8x23nv-V7OVB6
 }
 
 EntityColoring(Cloud_Datastore)
-!define Cloud_Datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Datastore, Cloud_Datastore)
-!define Cloud_Datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Datastore, Cloud_Datastore)
-!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Datastore, Cloud_Datastore)
-!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_Datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_Datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Datastore, Cloud_Datastore)

@@ -7,10 +7,10 @@ fymJymlvFCamPV3niOgTcnzZTZp376cSa_Cppv1dnp5KpUECMdQ4keNQCWGRCddz_wEEzcDS
 }
 
 EntityColoring(Cloud_IAM)
-!define Cloud_IAM(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_IAM, Cloud_IAM)
-!define Cloud_IAM(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_IAM, Cloud_IAM)
-!define Cloud_IAMParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_IAM, Cloud_IAM)
-!define Cloud_IAMParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_IAM, Cloud_IAM)
+!define Cloud_IAM(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_IAM, Cloud_IAM)
+!define Cloud_IAM(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_IAM, Cloud_IAM)
+!define Cloud_IAMParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_IAM, Cloud_IAM)
+!define Cloud_IAMParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_IAM, Cloud_IAM)
 
 sprite $Cloud_Resource_Manager [64x64/16z] {
 tPT9iWCn24Cz0CBtF_3Fd52_PK9Lx_BM4Oqb3wJz64CiGKRBKKUAQow7Vm5PWG7_2f8bM4LlM_c45y1id0ulWR9v74ZvynpqgdaSM3cxUeR6zFK6XCWp2ulc
@@ -21,10 +21,10 @@ fymJymlvFCamPV3niOgTcnzZTZp376cSa_Cppv1dnp5KpUECMdQ4keNQCWGRCddz_wEEzcDS
 }
 
 EntityColoring(Cloud_Resource_Manager)
-!define Cloud_Resource_Manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Resource_Manager, Cloud_Resource_Manager)
-!define Cloud_Resource_Manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Resource_Manager, Cloud_Resource_Manager)
-!define Cloud_Resource_ManagerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Resource_Manager, Cloud_Resource_Manager)
-!define Cloud_Resource_ManagerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Resource_Manager, Cloud_Resource_Manager)
+!define Cloud_Resource_Manager(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Resource_Manager, Cloud_Resource_Manager)
+!define Cloud_Resource_Manager(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Resource_Manager, Cloud_Resource_Manager)
+!define Cloud_Resource_ManagerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Resource_Manager, Cloud_Resource_Manager)
+!define Cloud_Resource_ManagerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Resource_Manager, Cloud_Resource_Manager)
 
 sprite $Cloud_Security_Command_Center [64x64/16z] {
 tPT7ikmW54FD9GZsl-0VUAxRuG1DyMQjCGTSaWY-laoMoaB9Fk2vQgcQrxZg1sarWG6dP7E-xF1bYaVW8obEy01yB9sPvr8wMzwbS60UB3p8ZXckbzV-1oIE
@@ -35,10 +35,10 @@ rtjzNLhq9z8YNbjntj_Ii3oFtZBTFw6-AGoFVfljtzHWrIYVmlDZjJolXuZpQrYZDBlx54RdPqHGBaEi
 }
 
 EntityColoring(Cloud_Security_Command_Center)
-!define Cloud_Security_Command_Center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
-!define Cloud_Security_Command_Center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
-!define Cloud_Security_Command_CenterParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
-!define Cloud_Security_Command_CenterParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
+!define Cloud_Security_Command_Center(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
+!define Cloud_Security_Command_Center(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
+!define Cloud_Security_Command_CenterParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
+!define Cloud_Security_Command_CenterParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Security_Command_Center, Cloud_Security_Command_Center)
 
 sprite $Cloud_Security_Scanner [64x64/16z] {
 tPVRmkCW28G1WO7tV-5TimShriJS_jzjCuA3AAKVXgZVe4BtME2Mi7ivuW4OxH748n3QuYTwfnqDSG3QHiw88_3Il0hqPVWA-DYySmi5SGpaCFnv0hgLOsFX
@@ -50,10 +50,10 @@ Rb_3FKhVETJZ_Vo-hztx6THfYxoktNiBZUvGV64dV___qOH-6By
 }
 
 EntityColoring(Cloud_Security_Scanner)
-!define Cloud_Security_Scanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
-!define Cloud_Security_Scanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
-!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
-!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_Scanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_Scanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
 
 sprite $Key_Management_Service [64x64/16z] {
 tPU7ZiCm34DhMVF_FxX3Q41SvAW6WdcyFPviaOBZFlwPYBKHqmzSt5gvzBZv3rbNW0fUPKqBkiFh9Jw1Dx9vWG_WhQmnRuldMykxs-ZCsxQmpsu_Gon_OmEy
@@ -65,8 +65,8 @@ VOnObhrtVqHsJORj4RlM9cytxkybkpx3rhpD3FlizYt4uBS55ZfvV-Frez3Zd-a5
 }
 
 EntityColoring(Key_Management_Service)
-!define Key_Management_Service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Key_Management_Service, Key_Management_Service)
-!define Key_Management_Service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Key_Management_Service, Key_Management_Service)
-!define Key_Management_ServiceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Key_Management_Service, Key_Management_Service)
-!define Key_Management_ServiceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Key_Management_Service, Key_Management_Service)
+!define Key_Management_Service(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Key_Management_Service, Key_Management_Service)
+!define Key_Management_Service(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Key_Management_Service, Key_Management_Service)
+!define Key_Management_ServiceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Key_Management_Service, Key_Management_Service)
+!define Key_Management_ServiceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Key_Management_Service, Key_Management_Service)
 

@@ -7,10 +7,10 @@ HSyXw8AqtFKSEXrWDDor70uwWqPv3OTA5OvcUGjvmrstGgCx1ivioxltZoRqo_WB
 }
 
 EntityColoring(API_Analytics)
-!define API_Analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, API_Analytics, API_Analytics)
-!define API_Analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, API_Analytics, API_Analytics)
-!define API_AnalyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, API_Analytics, API_Analytics)
-!define API_AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, API_Analytics, API_Analytics)
+!define API_Analytics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, API_Analytics, API_Analytics)
+!define API_Analytics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, API_Analytics, API_Analytics)
+!define API_AnalyticsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, API_Analytics, API_Analytics)
+!define API_AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, API_Analytics, API_Analytics)
 
 sprite $API_Monetization [64x64/16z] {
 tPVfWciX28CHWN3U_u7lOdjNqUZyx3VJlJbgWalbmr2B3QP4xeajwNivaW2NDOgaG6L9dEX3LdJa0UXIqv17W9Z7W97c6MZ4F0A2PCU0akRlEs14JYmavX4B
@@ -21,10 +21,10 @@ _RUSmKe-XDBV_ZsLVmFiZ1DxHdx8dEgNuttqs7eCfnO-1otPyV0yJrQWk6oeHcPQwwC0cx_UG-bVKJvD
 }
 
 EntityColoring(API_Monetization)
-!define API_Monetization(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, API_Monetization, API_Monetization)
-!define API_Monetization(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, API_Monetization, API_Monetization)
-!define API_MonetizationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, API_Monetization, API_Monetization)
-!define API_MonetizationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, API_Monetization, API_Monetization)
+!define API_Monetization(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, API_Monetization, API_Monetization)
+!define API_Monetization(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, API_Monetization, API_Monetization)
+!define API_MonetizationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, API_Monetization, API_Monetization)
+!define API_MonetizationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, API_Monetization, API_Monetization)
 
 sprite $Apigee_API_Platform [64x64/16z] {
 tPU9YWGX34HDF2hv_nzUb23q5ag7vfotv_IOWoglAJ-6jd6XQRdJ3LUityDXTWUt14hX3BGS6M_YHpbHOIz0FOGBx1L8YSUWfSepaAHuB67UE_QGotzeeC4I
@@ -35,10 +35,10 @@ StraHlx-oDxbhc0yyHaanMCFyzxbFHpbYAQzoqlOouq6vXYU__pOjVmOVm
 }
 
 EntityColoring(Apigee_API_Platform)
-!define Apigee_API_Platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Apigee_API_Platform, Apigee_API_Platform)
-!define Apigee_API_Platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Apigee_API_Platform, Apigee_API_Platform)
-!define Apigee_API_PlatformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Apigee_API_Platform, Apigee_API_Platform)
-!define Apigee_API_PlatformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Apigee_API_Platform, Apigee_API_Platform)
+!define Apigee_API_Platform(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Apigee_API_Platform, Apigee_API_Platform)
+!define Apigee_API_Platform(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Apigee_API_Platform, Apigee_API_Platform)
+!define Apigee_API_PlatformParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Apigee_API_Platform, Apigee_API_Platform)
+!define Apigee_API_PlatformParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Apigee_API_Platform, Apigee_API_Platform)
 
 sprite $Apigee_Sense [64x64/16z] {
 tPT9OlKm28C5CPQu_u7_eKd7u51ltxSEDPMO7buC7_E1uNWcn4SKp-5K0mDhd6gXOycaMZYnug3KmmCrHlqADk9rS3JFTz0QyHeu6-ywwCtp-mcC8fmNfOIz
@@ -49,10 +49,10 @@ dD-wuVWajlU7PhS-YG-Okc7j-hQ7_NcxGtVtzszkFsh9qTml-oUWQmDlpiU6kNK_DjuL7ZOCr71JlDx3
 }
 
 EntityColoring(Apigee_Sense)
-!define Apigee_Sense(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Apigee_Sense, Apigee_Sense)
-!define Apigee_Sense(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Apigee_Sense, Apigee_Sense)
-!define Apigee_SenseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Apigee_Sense, Apigee_Sense)
-!define Apigee_SenseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Apigee_Sense, Apigee_Sense)
+!define Apigee_Sense(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Apigee_Sense, Apigee_Sense)
+!define Apigee_Sense(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Apigee_Sense, Apigee_Sense)
+!define Apigee_SenseParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Apigee_Sense, Apigee_Sense)
+!define Apigee_SenseParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Apigee_Sense, Apigee_Sense)
 
 sprite $Cloud_Endpoints [64x64/16z] {
 tPT7WWGn20Dn037___2UDihq6XsdRXDaTrEEzcRC7G_iQSzuuf7qvpZo7-1MCodEO5f9tEJ3AXRo0YmxCv1Ne5Ky1hlLFOFHAHw3KDonG-vUVu2DR81T54yj
@@ -62,10 +62,10 @@ rm--3Bve3iI5W38Uz5TgWEBqxUNuvJYYcBw-azXi3eEM3sa1KVEqVFPOulBDnuYP0bFVlcY2Z7v-qFRT
 }
 
 EntityColoring(Cloud_Endpoints)
-!define Cloud_Endpoints(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Endpoints, Cloud_Endpoints)
-!define Cloud_Endpoints(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Endpoints, Cloud_Endpoints)
-!define Cloud_EndpointsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Endpoints, Cloud_Endpoints)
-!define Cloud_EndpointsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Endpoints, Cloud_Endpoints)
+!define Cloud_Endpoints(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Endpoints, Cloud_Endpoints)
+!define Cloud_Endpoints(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Endpoints, Cloud_Endpoints)
+!define Cloud_EndpointsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Endpoints, Cloud_Endpoints)
+!define Cloud_EndpointsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Endpoints, Cloud_Endpoints)
 
 sprite $Developer_Portal [64x64/16z] {
 tPS7iXiX44IP3FU_i8MClADUD79HMUzdwlUmT9Es_HYiNg3SQgn7IRTQ7lqBKHNW9Q-8OWZ-Fth_A9SbhmbfUoZ9A-BKl4NeQVUBe0Fp2WkhxEeCiVlp1z12
@@ -77,8 +77,8 @@ rHjzm4JTRSx4J7aJoN1vV1d1yO7uj-FJPPKWySAywlWED_CeiiCfZdpSlkFWxfUHm_iBTbzaMC67ryU5
 }
 
 EntityColoring(Developer_Portal)
-!define Developer_Portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Developer_Portal, Developer_Portal)
-!define Developer_Portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Developer_Portal, Developer_Portal)
-!define Developer_PortalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Developer_Portal, Developer_Portal)
-!define Developer_PortalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Developer_Portal, Developer_Portal)
+!define Developer_Portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Developer_Portal, Developer_Portal)
+!define Developer_Portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Developer_Portal, Developer_Portal)
+!define Developer_PortalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Developer_Portal, Developer_Portal)
+!define Developer_PortalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Developer_Portal, Developer_Portal)
 

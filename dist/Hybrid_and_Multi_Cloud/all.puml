@@ -6,10 +6,10 @@ pddd4D-VhKDEz_Vke2cCa2qgXfzFZuQ9dkyU7PaFwnt-_NeOV9ykfgyECNJrVQpkiCFUtPr36NlyDZpi
 }
 
 EntityColoring(Stackdriver)
-!define Stackdriver(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Stackdriver, Stackdriver)
-!define Stackdriver(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Stackdriver, Stackdriver)
-!define StackdriverParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Stackdriver, Stackdriver)
-!define StackdriverParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Stackdriver, Stackdriver)
+!define Stackdriver(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Stackdriver, Stackdriver)
+!define Stackdriver(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Stackdriver, Stackdriver)
+!define StackdriverParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Stackdriver, Stackdriver)
+!define StackdriverParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Stackdriver, Stackdriver)
 
 sprite $Traffic_Director [64x57/16z] {
 fPTNqYGn28CT0E7x7tXJrxB1rbZrDwzJduC47dNxhsOWQI5c-rn5qnMk-8i59l9Qc9n72WMAcyORmJjIAlGpxohlHtmWnSBGlECUQjuPg8UAUD6CIoY8rtb3
@@ -20,8 +20,8 @@ oBtJ9UJU2MD0l2CIwkBn1NJhoVUV7Bo_0m
 }
 
 EntityColoring(Traffic_Director)
-!define Traffic_Director(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Traffic_Director, Traffic_Director)
-!define Traffic_Director(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Traffic_Director, Traffic_Director)
-!define Traffic_DirectorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Traffic_Director, Traffic_Director)
-!define Traffic_DirectorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Traffic_Director, Traffic_Director)
+!define Traffic_Director(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Traffic_Director, Traffic_Director)
+!define Traffic_Director(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Traffic_Director, Traffic_Director)
+!define Traffic_DirectorParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Traffic_Director, Traffic_Director)
+!define Traffic_DirectorParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Traffic_Director, Traffic_Director)
 

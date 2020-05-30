@@ -7,7 +7,7 @@ KCDts_XnV-OCPNOYGsMUo51cfotK3v_X647qN_u_Djlz6Gu
 }
 
 EntityColoring(Dialog_Flow_Enterprise_Edition)
-!define Dialog_Flow_Enterprise_Edition(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
-!define Dialog_Flow_Enterprise_Edition(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
-!define Dialog_Flow_Enterprise_EditionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
-!define Dialog_Flow_Enterprise_EditionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
+!define Dialog_Flow_Enterprise_Edition(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
+!define Dialog_Flow_Enterprise_Edition(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
+!define Dialog_Flow_Enterprise_EditionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)
+!define Dialog_Flow_Enterprise_EditionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Dialog_Flow_Enterprise_Edition, Dialog_Flow_Enterprise_Edition)

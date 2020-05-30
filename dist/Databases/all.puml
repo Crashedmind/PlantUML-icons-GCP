@@ -8,10 +8,10 @@ JAePzWue2RT60OftlxdAUQQNhqyJA1o_QrYcwUjZbIpV7pLkYW7M6AOfwb6-lskwNP6ecgTfjTe9wXQ6
 }
 
 EntityColoring(Cloud_Bigtable)
-!define Cloud_Bigtable(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Bigtable, Cloud_Bigtable)
-!define Cloud_Bigtable(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Bigtable, Cloud_Bigtable)
-!define Cloud_BigtableParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Bigtable, Cloud_Bigtable)
-!define Cloud_BigtableParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Bigtable, Cloud_Bigtable)
+!define Cloud_Bigtable(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Bigtable, Cloud_Bigtable)
+!define Cloud_Bigtable(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Bigtable, Cloud_Bigtable)
+!define Cloud_BigtableParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Bigtable, Cloud_Bigtable)
+!define Cloud_BigtableParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Bigtable, Cloud_Bigtable)
 
 sprite $Cloud_Datastore [64x64/16z] {
 tPTbmkGm34DDiPpxNtYRPL0wgPU_zsTG0teDoHl38cy8atj6uPOQzt7K2p1aZw5U0fCjUP9FsU6e0-32KTGHE2wFWpZ-UWwqKHwhaBlhESoLx_-0G3q0qIwF
@@ -21,10 +21,10 @@ Fi_H_lAz6F8jQ9RNTEYx_Kjx2sWjTps7AGH5mrtBOGW7ZVA8msDtFOSfM-o1ksw5G-u8x23nv-V7OVB6
 }
 
 EntityColoring(Cloud_Datastore)
-!define Cloud_Datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Datastore, Cloud_Datastore)
-!define Cloud_Datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Datastore, Cloud_Datastore)
-!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Datastore, Cloud_Datastore)
-!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_Datastore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_Datastore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Datastore, Cloud_Datastore)
+!define Cloud_DatastoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Datastore, Cloud_Datastore)
 
 sprite $Cloud_Firestore [64x57/16z] {
 fPRd0kCW38E37Ipn_WzyamukCdKl-jKbwlZ3u_X77c0gdEtOgtChmFTsy8DW6xk1duJO-0FygCqJE0i2Cdi3Ay9PJfuMMZLvMkZrvDKPEfNg38DVwChm1ByG
@@ -35,10 +35,10 @@ fDtONqNoDCCzEwsI_pnIEShij09LTbejy7_HwqcdszbUpRJStGJudm
 }
 
 EntityColoring(Cloud_Firestore)
-!define Cloud_Firestore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Firestore, Cloud_Firestore)
-!define Cloud_Firestore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Firestore, Cloud_Firestore)
-!define Cloud_FirestoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Firestore, Cloud_Firestore)
-!define Cloud_FirestoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Firestore, Cloud_Firestore)
+!define Cloud_Firestore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Firestore, Cloud_Firestore)
+!define Cloud_Firestore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Firestore, Cloud_Firestore)
+!define Cloud_FirestoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Firestore, Cloud_Firestore)
+!define Cloud_FirestoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Firestore, Cloud_Firestore)
 
 sprite $Cloud_Memorystore [64x64/16z] {
 tPTNjiCW44Cf0uBzB_ZLmE54Ozdpc_lrIcI3f53IXr6i2wmaJHkGZARb63UWgS6Jd86OGd-YxvVoYl40rEIJCHw1a7aCBFHw1Zbc7biOpOuprA-F3y0m0i2a
@@ -49,10 +49,10 @@ f31u27di_jXA-Z2-0G
 }
 
 EntityColoring(Cloud_Memorystore)
-!define Cloud_Memorystore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Memorystore, Cloud_Memorystore)
-!define Cloud_Memorystore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Memorystore, Cloud_Memorystore)
-!define Cloud_MemorystoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Memorystore, Cloud_Memorystore)
-!define Cloud_MemorystoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Memorystore, Cloud_Memorystore)
+!define Cloud_Memorystore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Memorystore, Cloud_Memorystore)
+!define Cloud_Memorystore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Memorystore, Cloud_Memorystore)
+!define Cloud_MemorystoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Memorystore, Cloud_Memorystore)
+!define Cloud_MemorystoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Memorystore, Cloud_Memorystore)
 
 sprite $Cloud_SQL [64x64/16z] {
 tPVfWiGW28C5bS3xF_3UT2zYTNxEzsTt3WecDdNQaw735WnjQwPZYSzrEVm6pCPH-2rGNcyxzKRBEtm3T58ky2t0nTi2WxNV178i7fUGUyU1alQF3p3W1s1m
@@ -63,10 +63,10 @@ FtBlk8USqMfmA1xnyCYxSm-jKVJOktC9PrinG23bXxyVfxOdunK
 }
 
 EntityColoring(Cloud_SQL)
-!define Cloud_SQL(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_SQL, Cloud_SQL)
-!define Cloud_SQL(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_SQL, Cloud_SQL)
-!define Cloud_SQLParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_SQL, Cloud_SQL)
-!define Cloud_SQLParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_SQL, Cloud_SQL)
+!define Cloud_SQL(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_SQL, Cloud_SQL)
+!define Cloud_SQL(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_SQL, Cloud_SQL)
+!define Cloud_SQLParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_SQL, Cloud_SQL)
+!define Cloud_SQLParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_SQL, Cloud_SQL)
 
 sprite $Cloud_Spanner [64x64/16z] {
 tPU7adKX28CHmSJtV-2_kDKx73FEJjtlzX9R03tso_0O1yA5F8aZpBCS5E3KW8CIk3qoG0c6FT51Qj2jfYsv1cBn50ZHlG9DB9u0GtYdW8lkxmSGu0K8kNXw
@@ -77,8 +77,8 @@ DRVdP-sXzkxUms6F-BLtzqkOTY9GKillhn_JxPVn5m
 }
 
 EntityColoring(Cloud_Spanner)
-!define Cloud_Spanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Spanner, Cloud_Spanner)
-!define Cloud_Spanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Spanner, Cloud_Spanner)
-!define Cloud_SpannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Spanner, Cloud_Spanner)
-!define Cloud_SpannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Spanner, Cloud_Spanner)
+!define Cloud_Spanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Spanner, Cloud_Spanner)
+!define Cloud_Spanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Spanner, Cloud_Spanner)
+!define Cloud_SpannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Spanner, Cloud_Spanner)
+!define Cloud_SpannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Spanner, Cloud_Spanner)
 

@@ -8,7 +8,7 @@ dDMUlVi6vm5yKZvs_BnydRDh6Tv2CHE7vlKCpxCxpz2nXO-pExVGS8N6o2m_VtuqnfVn4m
 }
 
 EntityColoring(Cloud_DNS)
-!define Cloud_DNS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_DNS, Cloud_DNS)
-!define Cloud_DNS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_DNS, Cloud_DNS)
-!define Cloud_DNSParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_DNS, Cloud_DNS)
-!define Cloud_DNSParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_DNS, Cloud_DNS)
+!define Cloud_DNS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_DNS, Cloud_DNS)
+!define Cloud_DNS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_DNS, Cloud_DNS)
+!define Cloud_DNSParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_DNS, Cloud_DNS)
+!define Cloud_DNSParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_DNS, Cloud_DNS)

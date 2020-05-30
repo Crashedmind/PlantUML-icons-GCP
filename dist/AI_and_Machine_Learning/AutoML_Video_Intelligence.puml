@@ -7,7 +7,7 @@ x_pez5ldLzU_SNwUToZbzqFjBeUMtQrNM7s0fTJnEwHcRHUbxOTn1
 }
 
 EntityColoring(AutoML_Video_Intelligence)
-!define AutoML_Video_Intelligence(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
-!define AutoML_Video_Intelligence(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
-!define AutoML_Video_IntelligenceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
-!define AutoML_Video_IntelligenceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
+!define AutoML_Video_Intelligence(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
+!define AutoML_Video_Intelligence(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
+!define AutoML_Video_IntelligenceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, AutoML_Video_Intelligence, AutoML_Video_Intelligence)
+!define AutoML_Video_IntelligenceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, AutoML_Video_Intelligence, AutoML_Video_Intelligence)

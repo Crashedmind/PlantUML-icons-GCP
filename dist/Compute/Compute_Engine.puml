@@ -7,7 +7,7 @@ cJvG_EXAzz1R_NAfUz-0hPz5r5SvHapVwOlwEr_Qb-eV3n4xQfzhFG-H4Tft2mtnj61hzejSdVabGWIc
 }
 
 EntityColoring(Compute_Engine)
-!define Compute_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Compute_Engine, Compute_Engine)
-!define Compute_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Compute_Engine, Compute_Engine)
-!define Compute_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Compute_Engine, Compute_Engine)
-!define Compute_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Compute_Engine, Compute_Engine)
+!define Compute_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Compute_Engine, Compute_Engine)
+!define Compute_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Compute_Engine, Compute_Engine)
+!define Compute_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Compute_Engine, Compute_Engine)
+!define Compute_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Compute_Engine, Compute_Engine)

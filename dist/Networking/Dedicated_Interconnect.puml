@@ -6,7 +6,7 @@ Hq2o1WJ6Hu3qvaUGNJj3lcAwypFE46VNpr2k56fdro_XkYfO4w3k42_9MNGz6Qy
 }
 
 EntityColoring(Dedicated_Interconnect)
-!define Dedicated_Interconnect(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Dedicated_Interconnect, Dedicated_Interconnect)
-!define Dedicated_Interconnect(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Dedicated_Interconnect, Dedicated_Interconnect)
-!define Dedicated_InterconnectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Dedicated_Interconnect, Dedicated_Interconnect)
-!define Dedicated_InterconnectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Dedicated_Interconnect, Dedicated_Interconnect)
+!define Dedicated_Interconnect(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Dedicated_Interconnect, Dedicated_Interconnect)
+!define Dedicated_Interconnect(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Dedicated_Interconnect, Dedicated_Interconnect)
+!define Dedicated_InterconnectParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Dedicated_Interconnect, Dedicated_Interconnect)
+!define Dedicated_InterconnectParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Dedicated_Interconnect, Dedicated_Interconnect)

@@ -7,10 +7,10 @@ IKwNGhWPczzT2uyU8tzpHUdPWql8l--YslRK3_tunRCVeSiPrhVd3B_PhHcksH66PNQ_O-ZRNAWcZyXG
 }
 
 EntityColoring(App_Engine)
-!define App_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, App_Engine, App_Engine)
-!define App_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, App_Engine, App_Engine)
-!define App_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, App_Engine, App_Engine)
-!define App_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, App_Engine, App_Engine)
+!define App_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, App_Engine, App_Engine)
+!define App_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, App_Engine, App_Engine)
+!define App_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, App_Engine, App_Engine)
+!define App_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, App_Engine, App_Engine)
 
 sprite $Cloud_Functions [64x64/16z] {
 tPU7RiD034DvEfqa__y7jyqUX1mJnSp3p7WU96xXop2F7TompwhSfTQ-dlM1NEWnqfaqjCGHFz0nimwGiz57rY5I2ez9bsxFv533umZrxhZ3_lRw0pZfGeGK
@@ -20,10 +20,10 @@ n1sh0_FtcrxMBr_XHVYR7hHyQWnz-URk7eX-Idi_PYhx5oP1M0cOl7rikgCEzUxq3Xs4qc6YOQRUdTvX
 }
 
 EntityColoring(Cloud_Functions)
-!define Cloud_Functions(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Functions, Cloud_Functions)
-!define Cloud_Functions(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Functions, Cloud_Functions)
-!define Cloud_FunctionsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Functions, Cloud_Functions)
-!define Cloud_FunctionsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Functions, Cloud_Functions)
+!define Cloud_Functions(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Functions, Cloud_Functions)
+!define Cloud_Functions(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Functions, Cloud_Functions)
+!define Cloud_FunctionsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Functions, Cloud_Functions)
+!define Cloud_FunctionsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Functions, Cloud_Functions)
 
 sprite $Cloud_Run [64x64/16z] {
 tLTNsXin25n9rFjVE9zit3r89FdhF2zj1W5x_39qOXO0PkeBSz85A3LdjGMKi-JLbj2a1Dcn5sW-r3QW0zchRK4XzxO5e45JsuIsadPOGwnTNKEfs4j1EwWX
@@ -34,10 +34,10 @@ xqUiNLr3-e3x6MkOQrVNKEh_BrYxEeLK_7y3vWYDc0M2-l7By0S
 }
 
 EntityColoring(Cloud_Run)
-!define Cloud_Run(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Run, Cloud_Run)
-!define Cloud_Run(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Run, Cloud_Run)
-!define Cloud_RunParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Run, Cloud_Run)
-!define Cloud_RunParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Run, Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Run, Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Run, Cloud_Run)
+!define Cloud_RunParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Run, Cloud_Run)
+!define Cloud_RunParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Run, Cloud_Run)
 
 sprite $Compute_Engine [64x64/16z] {
 tPTN6kGm28Db1n2-_u6t9Dl1n7pxDl_3TAL8DZ3uCAPOWKpKgBF4jPRJNw1YpwI_meajTg8txBZe1_12pg0VmPPv4Khhz16EZdaHMZUxc65z-lu52Bq1fJIl
@@ -48,10 +48,10 @@ cJvG_EXAzz1R_NAfUz-0hPz5r5SvHapVwOlwEr_Qb-eV3n4xQfzhFG-H4Tft2mtnj61hzejSdVabGWIc
 }
 
 EntityColoring(Compute_Engine)
-!define Compute_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Compute_Engine, Compute_Engine)
-!define Compute_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Compute_Engine, Compute_Engine)
-!define Compute_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Compute_Engine, Compute_Engine)
-!define Compute_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Compute_Engine, Compute_Engine)
+!define Compute_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Compute_Engine, Compute_Engine)
+!define Compute_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Compute_Engine, Compute_Engine)
+!define Compute_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Compute_Engine, Compute_Engine)
+!define Compute_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Compute_Engine, Compute_Engine)
 
 sprite $Container_Optimized_OS [64x64/16z] {
 tPTNUkKm28L1ekv_mpFwPD8ELpTwpPyU-z1neJ_643iWWyve-97GizpZ3NuoC42E-245-utUNiedo3jyKW-3lCUlYeUuNBb7d6-AXxZTzWvxU7P_7u20_Ag4
@@ -63,10 +63,10 @@ ekO1wl3VFVlbVw9ZtZs_e7jWn0NZvl4HiRldntFlxX_1X7hyidZtp-_Ok_iU6hraNFVkleHA9yGx3lAx
 }
 
 EntityColoring(Container_Optimized_OS)
-!define Container_Optimized_OS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Container_Optimized_OS, Container_Optimized_OS)
-!define Container_Optimized_OS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Container_Optimized_OS, Container_Optimized_OS)
-!define Container_Optimized_OSParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Container_Optimized_OS, Container_Optimized_OS)
-!define Container_Optimized_OSParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Container_Optimized_OS, Container_Optimized_OS)
+!define Container_Optimized_OS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Container_Optimized_OS, Container_Optimized_OS)
+!define Container_Optimized_OS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Container_Optimized_OS, Container_Optimized_OS)
+!define Container_Optimized_OSParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Container_Optimized_OS, Container_Optimized_OS)
+!define Container_Optimized_OSParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Container_Optimized_OS, Container_Optimized_OS)
 
 sprite $GKE_On_Prem [64x57/16z] {
 fLS7bkmW3CDLzlqF_0kPzeATCBkQNWHOhXadiFa5ZCSr58WB8Eo67ZV0rGACk0MavplY7cZfWjW0jECZjW3Q4Ezx2Gcn2wxuji_todUn3yYcx_Ob5CGNWEw9
@@ -78,10 +78,10 @@ hkzgy5U--wc462q8--BzL4BRkVxQfrVNVsXXo-7_0W
 }
 
 EntityColoring(GKE_On_Prem)
-!define GKE_On_Prem(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, GKE_On_Prem, GKE_On_Prem)
-!define GKE_On_Prem(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, GKE_On_Prem, GKE_On_Prem)
-!define GKE_On_PremParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, GKE_On_Prem, GKE_On_Prem)
-!define GKE_On_PremParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, GKE_On_Prem, GKE_On_Prem)
+!define GKE_On_Prem(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, GKE_On_Prem, GKE_On_Prem)
+!define GKE_On_Prem(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, GKE_On_Prem, GKE_On_Prem)
+!define GKE_On_PremParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, GKE_On_Prem, GKE_On_Prem)
+!define GKE_On_PremParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, GKE_On_Prem, GKE_On_Prem)
 
 sprite $GPU [64x64/16z] {
 tPU9oiCm38DpMixxl_2FXnc1wbVRS4_0RX57N-rcvSVKXWcDLhIcGygdjiDlXAcAXzyAOWlsn6__sdlQjT0BLuK_4cHuzyAGozyBLONtF4BDJZFKoxylO0Yx
@@ -92,10 +92,10 @@ S1gUPgZPQOOwFCrGipkDS1Qb0IfjV_x_SRRoO_e3
 }
 
 EntityColoring(GPU)
-!define GPU(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, GPU, GPU)
-!define GPU(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, GPU, GPU)
-!define GPUParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, GPU, GPU)
-!define GPUParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, GPU, GPU)
+!define GPU(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, GPU, GPU)
+!define GPU(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, GPU, GPU)
+!define GPUParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, GPU, GPU)
+!define GPUParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, GPU, GPU)
 
 sprite $Kubernetes_Engine [64x64/16z] {
 tPVPTYqX24GB5Ahy_m--q-brpO3ThEGj-odJFYBLqWO_39zvmtJS4-8jYdkTUe21CquzGiUHxFY94uDgm84QereGDT7rPtlv6bgxUVqMEjM6tbo-Ny2ar8Up
@@ -107,8 +107,8 @@ ncy
 }
 
 EntityColoring(Kubernetes_Engine)
-!define Kubernetes_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Kubernetes_Engine, Kubernetes_Engine)
-!define Kubernetes_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Kubernetes_Engine, Kubernetes_Engine)
-!define Kubernetes_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Kubernetes_Engine, Kubernetes_Engine)
-!define Kubernetes_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Kubernetes_Engine, Kubernetes_Engine)
+!define Kubernetes_Engine(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Kubernetes_Engine, Kubernetes_Engine)
+!define Kubernetes_Engine(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Kubernetes_Engine, Kubernetes_Engine)
+!define Kubernetes_EngineParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Kubernetes_Engine, Kubernetes_Engine)
+!define Kubernetes_EngineParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Kubernetes_Engine, Kubernetes_Engine)
 

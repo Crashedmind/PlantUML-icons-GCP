@@ -4,10 +4,10 @@ yZNeGIC-z7hV-UOIHUWREvzZXLxC2_j0l2HHhtslGygkJpfcr-kKiES53n1TmpZtWbm5tL_y_bHWNA9U
 }
 
 EntityColoring(Cloud_Filestore)
-!define Cloud_Filestore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Filestore, Cloud_Filestore)
-!define Cloud_Filestore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Filestore, Cloud_Filestore)
-!define Cloud_FilestoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Filestore, Cloud_Filestore)
-!define Cloud_FilestoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Filestore, Cloud_Filestore)
+!define Cloud_Filestore(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Filestore, Cloud_Filestore)
+!define Cloud_Filestore(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Filestore, Cloud_Filestore)
+!define Cloud_FilestoreParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Filestore, Cloud_Filestore)
+!define Cloud_FilestoreParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Filestore, Cloud_Filestore)
 
 sprite $Cloud_Storage [64x64/16z] {
 tPTNOiL030ArHKAv_uLp0BD-cFJCFoxCrlXdp5qtx1dtPEEMpliu-WN8E3FHBy6C8wNaAquij01MS0PQ0d9v76pvzHmCjJmEod1779BNsn-mqG_0jilZ5URJ
@@ -17,10 +17,10 @@ l0C
 }
 
 EntityColoring(Cloud_Storage)
-!define Cloud_Storage(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Storage, Cloud_Storage)
-!define Cloud_Storage(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Storage, Cloud_Storage)
-!define Cloud_StorageParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Storage, Cloud_Storage)
-!define Cloud_StorageParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Storage, Cloud_Storage)
+!define Cloud_Storage(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Storage, Cloud_Storage)
+!define Cloud_Storage(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Storage, Cloud_Storage)
+!define Cloud_StorageParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Storage, Cloud_Storage)
+!define Cloud_StorageParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Storage, Cloud_Storage)
 
 sprite $Persistent_Disk [64x64/16z] {
 tPT9bkKW30H15gHy_mDtLtd5VoO0lThzs8U7JCRoPPZt1MuRlOMMH5lhYWrgXJ755Xdx_SJlg5-A0tI1NXL7YCCxGawlFqGr4Hv4cEWEE-JNvp_0IUS8ERny
@@ -30,8 +30,8 @@ ID9Nxkp70mGwp1y1BH9OxlY8tK67gUxo7NgPesHuq66gkto7lI2MxYuVOIihN3D0pzyVcvKlupy
 }
 
 EntityColoring(Persistent_Disk)
-!define Persistent_Disk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Persistent_Disk, Persistent_Disk)
-!define Persistent_Disk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Persistent_Disk, Persistent_Disk)
-!define Persistent_DiskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Persistent_Disk, Persistent_Disk)
-!define Persistent_DiskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Persistent_Disk, Persistent_Disk)
+!define Persistent_Disk(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Persistent_Disk, Persistent_Disk)
+!define Persistent_Disk(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Persistent_Disk, Persistent_Disk)
+!define Persistent_DiskParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Persistent_Disk, Persistent_Disk)
+!define Persistent_DiskParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Persistent_Disk, Persistent_Disk)
 

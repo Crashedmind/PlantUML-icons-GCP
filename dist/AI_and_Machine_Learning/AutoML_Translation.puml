@@ -7,7 +7,7 @@ yOaEQwRlvvTSJzwQ4ZlHOOryF3ycxgB3clwVpy-vmzpTTuVQXZ2-kliUmluldz-gvGVKHNH8v_PZ_04
 }
 
 EntityColoring(AutoML_Translation)
-!define AutoML_Translation(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, AutoML_Translation, AutoML_Translation)
-!define AutoML_Translation(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, AutoML_Translation, AutoML_Translation)
-!define AutoML_TranslationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, AutoML_Translation, AutoML_Translation)
-!define AutoML_TranslationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, AutoML_Translation, AutoML_Translation)
+!define AutoML_Translation(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, AutoML_Translation, AutoML_Translation)
+!define AutoML_Translation(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, AutoML_Translation, AutoML_Translation)
+!define AutoML_TranslationParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, AutoML_Translation, AutoML_Translation)
+!define AutoML_TranslationParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, AutoML_Translation, AutoML_Translation)

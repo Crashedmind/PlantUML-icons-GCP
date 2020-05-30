@@ -7,7 +7,7 @@ FyOV
 }
 
 EntityColoring(Cloud_CDN)
-!define Cloud_CDN(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_CDN, Cloud_CDN)
-!define Cloud_CDN(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_CDN, Cloud_CDN)
-!define Cloud_CDNParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_CDN, Cloud_CDN)
-!define Cloud_CDNParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_CDN, Cloud_CDN)
+!define Cloud_CDN(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_CDN, Cloud_CDN)
+!define Cloud_CDN(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_CDN, Cloud_CDN)
+!define Cloud_CDNParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_CDN, Cloud_CDN)
+!define Cloud_CDNParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_CDN, Cloud_CDN)

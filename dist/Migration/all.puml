@@ -6,8 +6,8 @@ lew8nlP9vRMt09gQw9JNtmBrvFp2G8ZPSjTp6Btp8xlhEJJPWqPv3OVQkZzmUSmySDUjqAN2S075M_T7
 }
 
 EntityColoring(Transfer_Appliance)
-!define Transfer_Appliance(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Transfer_Appliance, Transfer_Appliance)
-!define Transfer_Appliance(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Transfer_Appliance, Transfer_Appliance)
-!define Transfer_ApplianceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Transfer_Appliance, Transfer_Appliance)
-!define Transfer_ApplianceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Transfer_Appliance, Transfer_Appliance)
+!define Transfer_Appliance(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Transfer_Appliance, Transfer_Appliance)
+!define Transfer_Appliance(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Transfer_Appliance, Transfer_Appliance)
+!define Transfer_ApplianceParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Transfer_Appliance, Transfer_Appliance)
+!define Transfer_ApplianceParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Transfer_Appliance, Transfer_Appliance)
 

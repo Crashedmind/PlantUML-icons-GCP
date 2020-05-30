@@ -8,7 +8,7 @@ Rb_3FKhVETJZ_Vo-hztx6THfYxoktNiBZUvGV64dV___qOH-6By
 }
 
 EntityColoring(Cloud_Security_Scanner)
-!define Cloud_Security_Scanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
-!define Cloud_Security_Scanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
-!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
-!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_Scanner(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_Scanner(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)
+!define Cloud_Security_ScannerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Security_Scanner, Cloud_Security_Scanner)

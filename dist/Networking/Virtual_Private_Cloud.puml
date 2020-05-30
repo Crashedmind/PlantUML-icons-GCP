@@ -6,7 +6,7 @@ Fjs-K0ATRfyw1zk-THhhLWVqxASJulb5Fm9wRU32yL7jZdUeTxVVOHe7iZnEOB-x_GwxJV7jxlOLDbkH
 }
 
 EntityColoring(Virtual_Private_Cloud)
-!define Virtual_Private_Cloud(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Virtual_Private_Cloud, Virtual_Private_Cloud)
-!define Virtual_Private_Cloud(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Virtual_Private_Cloud, Virtual_Private_Cloud)
-!define Virtual_Private_CloudParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Virtual_Private_Cloud, Virtual_Private_Cloud)
-!define Virtual_Private_CloudParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Virtual_Private_Cloud, Virtual_Private_Cloud)
+!define Virtual_Private_Cloud(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Virtual_Private_Cloud, Virtual_Private_Cloud)
+!define Virtual_Private_Cloud(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Virtual_Private_Cloud, Virtual_Private_Cloud)
+!define Virtual_Private_CloudParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Virtual_Private_Cloud, Virtual_Private_Cloud)
+!define Virtual_Private_CloudParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Virtual_Private_Cloud, Virtual_Private_Cloud)

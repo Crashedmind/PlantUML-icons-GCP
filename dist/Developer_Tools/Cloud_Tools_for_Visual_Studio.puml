@@ -6,7 +6,7 @@ lffXgURRbv6nvyYtpqd65jEtxo1G7G9LEhw8QySdEQJZEtf7e8Yd7u6jH1nIUL8bxpGFwPte8RtJFBIo
 }
 
 EntityColoring(Cloud_Tools_for_Visual_Studio)
-!define Cloud_Tools_for_Visual_Studio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
-!define Cloud_Tools_for_Visual_Studio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
-!define Cloud_Tools_for_Visual_StudioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
-!define Cloud_Tools_for_Visual_StudioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
+!define Cloud_Tools_for_Visual_Studio(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
+!define Cloud_Tools_for_Visual_Studio(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
+!define Cloud_Tools_for_Visual_StudioParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)
+!define Cloud_Tools_for_Visual_StudioParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Tools_for_Visual_Studio, Cloud_Tools_for_Visual_Studio)

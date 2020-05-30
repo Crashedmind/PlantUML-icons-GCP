@@ -8,7 +8,7 @@ rHjzm4JTRSx4J7aJoN1vV1d1yO7uj-FJPPKWySAywlWED_CeiiCfZdpSlkFWxfUHm_iBTbzaMC67ryU5
 }
 
 EntityColoring(Developer_Portal)
-!define Developer_Portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Developer_Portal, Developer_Portal)
-!define Developer_Portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Developer_Portal, Developer_Portal)
-!define Developer_PortalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Developer_Portal, Developer_Portal)
-!define Developer_PortalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Developer_Portal, Developer_Portal)
+!define Developer_Portal(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Developer_Portal, Developer_Portal)
+!define Developer_Portal(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Developer_Portal, Developer_Portal)
+!define Developer_PortalParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Developer_Portal, Developer_Portal)
+!define Developer_PortalParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Developer_Portal, Developer_Portal)

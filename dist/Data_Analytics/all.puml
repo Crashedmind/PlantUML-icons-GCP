@@ -7,10 +7,10 @@ ENxXiCNy4LdCdvp0l9Y_lpX3vfi5PBz-_CBj0aRxzOkk1OpMoxSY9AZkV2bWy0Izn8I9EFrS2k1--yhr
 }
 
 EntityColoring(BigQuery)
-!define BigQuery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, BigQuery, BigQuery)
-!define BigQuery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, BigQuery, BigQuery)
-!define BigQueryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, BigQuery, BigQuery)
-!define BigQueryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, BigQuery, BigQuery)
+!define BigQuery(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, BigQuery, BigQuery)
+!define BigQuery(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, BigQuery, BigQuery)
+!define BigQueryParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, BigQuery, BigQuery)
+!define BigQueryParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, BigQuery, BigQuery)
 
 sprite $Cloud_Composer [64x64/16z] {
 tPTNWiCm24HbX1Xo_mDlaxUByIZvozjUdWlDf3qPva5mQvoHeEJWEl82i0COyX9OxOVYHwbtf01weHz82P3WAS39wHLmoC7JGsX86PXuUlq27Ba1d0HF0GVB
@@ -20,10 +20,10 @@ mP-l_163t09azrFeulwYhu2M6nXP7mLYVtyakTjUmRoj4Nq8-xkSk_qSHYknxTpjXt0qXkCVWYw_VXpM
 }
 
 EntityColoring(Cloud_Composer)
-!define Cloud_Composer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Composer, Cloud_Composer)
-!define Cloud_Composer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Composer, Cloud_Composer)
-!define Cloud_ComposerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Composer, Cloud_Composer)
-!define Cloud_ComposerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Composer, Cloud_Composer)
+!define Cloud_Composer(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Composer, Cloud_Composer)
+!define Cloud_Composer(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Composer, Cloud_Composer)
+!define Cloud_ComposerParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Composer, Cloud_Composer)
+!define Cloud_ComposerParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Composer, Cloud_Composer)
 
 sprite $Cloud_Data_Catalog [64x64/16z] {
 xPP7UiKW30PH5xx_WVEbA8rVs66TsRqgQrHW_E0VLkjH7ZTepXrfjF_vl6Fx1vBp5XqjvFEUe7tuymUWc4_8hWWsd-4u0yxvZ9HZUQNmK5wXX_AAu3Ny_0js
@@ -34,10 +34,10 @@ dctz-jehb8izt831yFVSJB0UnhTkVQJypDzG_bU51s92NyNwB9nV_MUxGGriFelqdA-4PQZuse_xzHqo
 }
 
 EntityColoring(Cloud_Data_Catalog)
-!define Cloud_Data_Catalog(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Data_Catalog, Cloud_Data_Catalog)
-!define Cloud_Data_Catalog(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Data_Catalog, Cloud_Data_Catalog)
-!define Cloud_Data_CatalogParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Data_Catalog, Cloud_Data_Catalog)
-!define Cloud_Data_CatalogParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Data_Catalog, Cloud_Data_Catalog)
+!define Cloud_Data_Catalog(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Data_Catalog, Cloud_Data_Catalog)
+!define Cloud_Data_Catalog(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Data_Catalog, Cloud_Data_Catalog)
+!define Cloud_Data_CatalogParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Data_Catalog, Cloud_Data_Catalog)
+!define Cloud_Data_CatalogParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Data_Catalog, Cloud_Data_Catalog)
 
 sprite $Cloud_Data_Fusion [64x58/16z] {
 dPO7iiCW30L5aPwu_u5_mR-G-8c8x4ocPeUoja6Ug8eDMcMFEdm3NBTwXxy0AZ7L4zJODxpMOQ7Uu0dG8n-U0YMnUUTRMAYUdu3cVMFjg9vlQ2U-7RJh7Ur2
@@ -48,10 +48,10 @@ GWhEsvs-1arsD3XsDfhiAKrls2_QRvF_1
 }
 
 EntityColoring(Cloud_Data_Fusion)
-!define Cloud_Data_Fusion(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Data_Fusion, Cloud_Data_Fusion)
-!define Cloud_Data_Fusion(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Data_Fusion, Cloud_Data_Fusion)
-!define Cloud_Data_FusionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Data_Fusion, Cloud_Data_Fusion)
-!define Cloud_Data_FusionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Data_Fusion, Cloud_Data_Fusion)
+!define Cloud_Data_Fusion(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Data_Fusion, Cloud_Data_Fusion)
+!define Cloud_Data_Fusion(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Data_Fusion, Cloud_Data_Fusion)
+!define Cloud_Data_FusionParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Data_Fusion, Cloud_Data_Fusion)
+!define Cloud_Data_FusionParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Data_Fusion, Cloud_Data_Fusion)
 
 sprite $Cloud_Dataflow [64x64/16z] {
 tLU7ikGW30DN-FyVliawZrmHkWpJLzlId6395cpxCeW5WKdZy94KmtbuZlyWsGsamYcIf11lucCRhZbU8BLXz1olaCVa5TAE7r_8VaeUfX1hnpN4ZpyVWA5m
@@ -62,10 +62,10 @@ WEaJEEYjPG3osFITigBYiucr8rEGYuDDGDv6GmuzMR_WnsCDEUHq-LY8a_KZrWvho64D8q_9unfoxRY6
 }
 
 EntityColoring(Cloud_Dataflow)
-!define Cloud_Dataflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Dataflow, Cloud_Dataflow)
-!define Cloud_Dataflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Dataflow, Cloud_Dataflow)
-!define Cloud_DataflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Dataflow, Cloud_Dataflow)
-!define Cloud_DataflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Dataflow, Cloud_Dataflow)
+!define Cloud_Dataflow(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Dataflow, Cloud_Dataflow)
+!define Cloud_Dataflow(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Dataflow, Cloud_Dataflow)
+!define Cloud_DataflowParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Dataflow, Cloud_Dataflow)
+!define Cloud_DataflowParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Dataflow, Cloud_Dataflow)
 
 sprite $Cloud_Datalab [64x64/16z] {
 tPT9WWCn20DbWn7-_uSd-seHztNg77fH0UtWdz4z2hoZPYHBSjJbp1zmGDEPFs6797Rg0mfZRa33ciRSWZgyBUZgzfkmxOONJX7Xdhi64mxtt7aRcmwTUG3w
@@ -76,10 +76,10 @@ FErmtzrnXm59F-pkU8G35SuLelpu_yVHyS_u0m
 }
 
 EntityColoring(Cloud_Datalab)
-!define Cloud_Datalab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Datalab, Cloud_Datalab)
-!define Cloud_Datalab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Datalab, Cloud_Datalab)
-!define Cloud_DatalabParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Datalab, Cloud_Datalab)
-!define Cloud_DatalabParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Datalab, Cloud_Datalab)
+!define Cloud_Datalab(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Datalab, Cloud_Datalab)
+!define Cloud_Datalab(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Datalab, Cloud_Datalab)
+!define Cloud_DatalabParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Datalab, Cloud_Datalab)
+!define Cloud_DatalabParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Datalab, Cloud_Datalab)
 
 sprite $Cloud_Dataprep [64x64/16z] {
 tPT7TYin30IH0Tx_m3zGSWORujQrzIjf1erWqIz3B00cXF5AI3dMimRIWIvP8mbU8LxnWqverWkaKWzdlKJ2uisamQ-VIKR5cyaOixlFC90_Fu017POG5oyJ
@@ -90,10 +90,10 @@ uPpTVOP1H-Gwk_iIEY4iZypw_FlHXNuPVm4
 }
 
 EntityColoring(Cloud_Dataprep)
-!define Cloud_Dataprep(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Dataprep, Cloud_Dataprep)
-!define Cloud_Dataprep(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Dataprep, Cloud_Dataprep)
-!define Cloud_DataprepParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Dataprep, Cloud_Dataprep)
-!define Cloud_DataprepParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Dataprep, Cloud_Dataprep)
+!define Cloud_Dataprep(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Dataprep, Cloud_Dataprep)
+!define Cloud_Dataprep(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Dataprep, Cloud_Dataprep)
+!define Cloud_DataprepParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Dataprep, Cloud_Dataprep)
+!define Cloud_DataprepParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Dataprep, Cloud_Dataprep)
 
 sprite $Cloud_Dataproc [64x64/16z] {
 tPTNkkmm28CnnWZsl-7x9SDjYIqVlyv_Uj4G94YHBqFD2QR26G5A32v7R01x0KLi0Md1Vw9tMT5Bpa5Vo5l9Tu2QjmT6o-z1Ep2FMCYpundoykS7O4JEBEJc
@@ -104,10 +104,10 @@ NhwWxsbrRQrLcuMlBfyr__7aiO2DNRupW_Ew3qKS0NhljwUJ-vVZyfNX0Sfk7_Vu-VqZoUxu5ina3WxD
 }
 
 EntityColoring(Cloud_Dataproc)
-!define Cloud_Dataproc(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Dataproc, Cloud_Dataproc)
-!define Cloud_Dataproc(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Dataproc, Cloud_Dataproc)
-!define Cloud_DataprocParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Dataproc, Cloud_Dataproc)
-!define Cloud_DataprocParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Dataproc, Cloud_Dataproc)
+!define Cloud_Dataproc(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Dataproc, Cloud_Dataproc)
+!define Cloud_Dataproc(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Dataproc, Cloud_Dataproc)
+!define Cloud_DataprocParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Dataproc, Cloud_Dataproc)
+!define Cloud_DataprocParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Dataproc, Cloud_Dataproc)
 
 sprite $Cloud_PubSub [64x64/16z] {
 tLT90kqW22igHEz_u3_OWJT4OVsoQsjG4aHx_1XAimrQ2UZQiKNNFHqz07O12de8R5Am3D-Mz8gU0Eg2BkWf82qU1rfwUWv8NZmkOTQxl8Ty-lm26gFd9HJm
@@ -118,10 +118,10 @@ zPxU_VAesVjBC7teOU1Tv67WNUnXu5te8JyNE99y9E_lUU-uXtdnk8TvxxY4KU7p00m1FV__gENuCVm5
 }
 
 EntityColoring(Cloud_PubSub)
-!define Cloud_PubSub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_PubSub, Cloud_PubSub)
-!define Cloud_PubSub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_PubSub, Cloud_PubSub)
-!define Cloud_PubSubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_PubSub, Cloud_PubSub)
-!define Cloud_PubSubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_PubSub, Cloud_PubSub)
+!define Cloud_PubSub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_PubSub, Cloud_PubSub)
+!define Cloud_PubSub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_PubSub, Cloud_PubSub)
+!define Cloud_PubSubParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_PubSub, Cloud_PubSub)
+!define Cloud_PubSubParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_PubSub, Cloud_PubSub)
 
 sprite $Genomics [64x64/16z] {
 tPRNbWGX24GHWQB__uCtkA5tt2uRpxpDVTP3A9Ay66gnm5JMU699-lexyWQuS1Hv2rGeKVaVmkZ80kZaUqEM04zU2HWpNmID9Ay8OaSxhY4tl--08JU0aUHL
@@ -132,8 +132,8 @@ jLZWAY_6Em
 }
 
 EntityColoring(Genomics)
-!define Genomics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Genomics, Genomics)
-!define Genomics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Genomics, Genomics)
-!define GenomicsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Genomics, Genomics)
-!define GenomicsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Genomics, Genomics)
+!define Genomics(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Genomics, Genomics)
+!define Genomics(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Genomics, Genomics)
+!define GenomicsParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Genomics, Genomics)
+!define GenomicsParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Genomics, Genomics)
 

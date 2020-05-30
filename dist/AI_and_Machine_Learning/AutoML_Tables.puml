@@ -7,7 +7,7 @@ _CBnyD94w4I6kVJb_4ZOHOQvv8VdPywGitlFqFBdbtbsxoEK_tb-w-n4HLJjKL8_NwRV
 }
 
 EntityColoring(AutoML_Tables)
-!define AutoML_Tables(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, AutoML_Tables, AutoML_Tables)
-!define AutoML_Tables(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, AutoML_Tables, AutoML_Tables)
-!define AutoML_TablesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, AutoML_Tables, AutoML_Tables)
-!define AutoML_TablesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, AutoML_Tables, AutoML_Tables)
+!define AutoML_Tables(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, AutoML_Tables, AutoML_Tables)
+!define AutoML_Tables(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, AutoML_Tables, AutoML_Tables)
+!define AutoML_TablesParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, AutoML_Tables, AutoML_Tables)
+!define AutoML_TablesParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, AutoML_Tables, AutoML_Tables)

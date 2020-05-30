@@ -6,7 +6,7 @@ x2wWdVrkhCBvfL-WXfITbc4OOO6GdPIX6mU2UKA6j-oq3CDs6HUoKosSrk6WC3bd-8nzvh0Funi
 }
 
 EntityColoring(Cloud_Load_Balancing)
-!define Cloud_Load_Balancing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #232F3E, Cloud_Load_Balancing, Cloud_Load_Balancing)
-!define Cloud_Load_Balancing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Load_Balancing, Cloud_Load_Balancing)
-!define Cloud_Load_BalancingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #232F3E, Cloud_Load_Balancing, Cloud_Load_Balancing)
-!define Cloud_Load_BalancingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Load_Balancing, Cloud_Load_Balancing)
+!define Cloud_Load_Balancing(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, #036ffc, Cloud_Load_Balancing, Cloud_Load_Balancing)
+!define Cloud_Load_Balancing(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, #036ffc, Cloud_Load_Balancing, Cloud_Load_Balancing)
+!define Cloud_Load_BalancingParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Load_Balancing, Cloud_Load_Balancing)
+!define Cloud_Load_BalancingParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Load_Balancing, Cloud_Load_Balancing)

@@ -264,4 +264,4 @@ Defaults:
   Colors:
     # GCPBlue: "#4285f4" color from svgs but looks anemic in rendered puml
     GCPBlue: "#036ffc"    
-  TargetMaxSize: 64
+  TargetMaxSize: 128
