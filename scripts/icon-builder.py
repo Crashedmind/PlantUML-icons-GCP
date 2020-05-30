@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
-
 
 """icon-builder.py: Build Icons for PlantUML"""
 

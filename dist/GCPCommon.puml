@@ -1,9 +1,9 @@
-' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-' SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 
 ' Colors
 ' ##################################
-!define GCP_COLOR #232F3E
+    '# GCPBlue: "#4285f4" color from svgs but looks anemic in rendered puml
+    'GCPBlue: "#036ffc"   
+!define GCP_COLOR #036ffc
 !define GCP_BG_COLOR #FFFFFF
 !define GCP_BORDER_COLOR #FF9900
 !define GCP_SYMBOL_COLOR GCP_COLOR
